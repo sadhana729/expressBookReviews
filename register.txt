@@ -1,0 +1,12 @@
+POST http://localhost:5000/register
+
+Request Body:
+{
+  "username":"john",
+  "password":"1234"
+}
+
+Response:
+{
+  "message":"User successfully registered.Now you can login"
+}
